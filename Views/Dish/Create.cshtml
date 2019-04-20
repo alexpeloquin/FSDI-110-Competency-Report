@@ -1,0 +1,45 @@
+
+<h1>Register Items to be on the Menu</h1>
+
+<h5>All ideas are welcome before the Grand Opening</h5>
+
+<form>
+  <div class="form-row">
+        <div class="form-group col-md-4">
+      <label>Dish Name</label>
+      <input class="form-control" id="txtName">
+        </div>
+      <div id="nameError" class="alert alert-danger hidden" role="alert">The dish needs to have a name?!?</div>
+        <div class="form-group col-md-12">
+      <label>Dish Description</label>
+      <input class="form-control" id="txtDesc">
+        </div>
+
+
+        <div class="form-group col-md-4">
+    <label>Price</label>
+      <input class="form-control" id="txtPrice">
+        </div>
+        <div id="priceError" class="alert alert-danger hidden" role="alert">The value for price should be a number</div>
+
+        <div class="form-group col-md-4">
+    <label>Image</label>
+      <input class="form-control" id="txtImgUrl">
+        </div>
+
+        <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="isVegan">
+        <label class="form-check-label">
+          Dish Vegan?
+        </label>
+        </div>
+
+    </div>
+
+        <br>
+        <div>
+         <button onclick="RegisterDish()" type="button" class="btn btn-primary">Submit</button>
+         </div>
+</form>
+
